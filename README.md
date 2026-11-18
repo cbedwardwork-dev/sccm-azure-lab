@@ -4,7 +4,7 @@ A fork of the Azure Quickstart template
 [`application-workloads/sccm/sccm-currentbranch`](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/sccm/sccm-currentbranch),
 fixed so it deploys end to end in 2026, including into subscriptions under Azure Landing Zone policies.
 
-[![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FOWNER%2FREPO%2Fmain%2Fazuredeploy.json)
+[![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcbedwardwork-dev%2Fsccm-lab%2Fmain%2Fazuredeploy.json)
 
 > After pushing, replace `OWNER` and `REPO` in the button link above with your GitHub user/org and repo name.
 > The repo must be **public** (or see "Private repo" below), because the VMs download the DSC scripts from it.
