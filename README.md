@@ -82,4 +82,4 @@ Pop-Location
 * **This patched version hasn't been deployed end to end yet.** The fixes come from a real Standalone build of the upstream template (where each problem was hit and fixed by hand), but the first run of this fork is its real test. Watch the logs on PS01 on that first build.
 * The Hierarchy configuration has the same fixes applied but hasn't been tested at all.
 * `defaultOutboundAccess` is Microsoft's legacy outbound method. If your org blocks it, add a NAT gateway to the subnet.
-* The landing-zone fixes cover the two policies hit so far (*Deny-Subnet-Without-Nsg*, *Deny-MgmtPorts-Internet*). Other org policies, such as required tags or allowed locations, may still need tweaks.
+
